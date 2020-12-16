@@ -53,7 +53,10 @@ MayaData is a large user of Velero as well as a contributor. MayaData offers a D
 
 **[Okteto][93]**  
 Okteto integrates Velero in [Okteto Cloud][94] and [Okteto Enterprise][95] to periodically backup and restore our clusters for disaster recovery. Velero is also a core software building block to provide namespace cloning capabilities, a feature that allows our users cloning staging environments into their personal development namespace for providing production-like development environments.
-​
+
+**[CloudCasa][96]**  
+[Catalogic Software][97] integrates Velero with [CloudCasa][96] - A Smart Home in the Cloud for Backups. CloudCasa is a simple, scalable, cloud-native solution providing data protection and disaster recovery as a service. This solution is built using Kubernetes for protecting Kubernetes clusters.
+
 ## Adding your organization to the list of Velero Adopters
 
 If you are using Velero and would like to be included in the list of `Velero Adopters`, add an SVG version of your logo to the `site/static/img/adopters` directory in this repo and submit a [pull request][3] with your change. Name the image file something that reflects your company (e.g., if your company is called Acme, name the image acme.png). See this for an example [PR][4].
@@ -102,3 +105,6 @@ If you would like to add your logo to a future `Adopters of Velero` section on [
 [93]: https://okteto.com
 [94]: https://cloud.okteto.com
 [95]: https://okteto.com/enterprise/
+
+[96]: https://cloudcasa.io/
+[97]: https://www.catalogicsoftware.com/
